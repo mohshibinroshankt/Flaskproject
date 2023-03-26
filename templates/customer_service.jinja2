@@ -1,0 +1,38 @@
+{% extends 'extendji.jinja2' %}
+
+{% block content %}
+<head>
+    <title>Customer Service - Company Name</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='customer_serv_style.css') }}">
+</head>
+<body>
+
+    <div id="hero">
+        <h1>Customer Service</h1>
+        <p>Our customer service representatives are here to help you!</p>
+    </div>
+    <div id="customer-service-section">
+        <h2>Ways to Contact Us</h2>
+        <ul>
+            <li>Phone: 1-800-123-4567</li>
+            <li>Email: info@companyname.com</li>
+            <li>Live Chat: Click the Chat icon in the bottom right corner of the screen</li>
+        </ul>
+        <h2>Frequently Asked Questions</h2>
+        <ul>
+            <li>
+                <h3>Question 1</h3>
+                <p>Answer to Question 1 goes here</p>
+            </li>
+            <li>
+                <h3>Question 2</h3>
+                <p>Answer to Question 2 goes here</p>
+            </li>
+            <li>
+                <h3>Question 3</h3>
+                <p>Answer to Question 3 goes here</p>
+            </li>
+        </ul>
+    </div>
+</body>
+{% endblock %}

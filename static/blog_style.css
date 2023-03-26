@@ -1,0 +1,35 @@
+/* center the posts on the page */
+.post {
+  max-width: 800px;
+  margin: 0 auto 50px;
+}
+
+/* style the post title */
+.post h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* style the post date */
+.post .date {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* style the post content */
+.post p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* style the post author */
+.post em {
+  font-style: italic;
+}
+
+/* add a separator between posts */
+.post + .post {
+  border-top: 1px solid #ccc;
+  padding-top: 50px;
+}

@@ -1,0 +1,36 @@
+
+/* center the achievements on the page */
+.chakka {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #ccc;
+}
+
+/* style the achievement title */
+.chakka h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+/* style the achievement date */
+.chakka .date {
+  font-style: italic;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* style the achievement description */
+.chakka p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* add a separator between achievements */
+.chakka + .chakka {
+  margin-top: 50px;
+}

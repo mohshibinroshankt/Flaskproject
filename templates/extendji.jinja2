@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='extendji_style.css') }}">
+</head>
+<body>
+<nav>
+<ul>
+    <li><a href="{{ url_for('index') }}">Home</a></li>
+    <li><a href="{{ url_for('products') }}">Products</a></li>
+    <li><a href="{{ url_for('services') }}">Services</a></li>
+    <li><a href="{{ url_for('customer_service') }}">Customer Service</a></li>
+    <li><a href="{{ url_for('testimonials') }}">Testimonials</a></li>
+    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+    <li><a href="{{ url_for('blog') }}">Blog</a></li>
+    <li><a href="{{ url_for('achievements') }}">Achievements</a></li>
+</ul>
+</nav>
+{% block content %}
+
+{% endblock %}
+<footer>
+    <p>&copy; 2023 MSR &Co pvt Ltd. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+{% extends 'extendji.jinja2' %}
+
+
+{% block content %}
+<head>
+    <title>Products - My Company</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='products_style.css') }}">
+</head>
+<body>
+
+    <div id="hero">
+        <h1>Our Products</h1>
+        <p>Check out our wide range of products to meet your needs!</p>
+    </div>
+    <div id="products-section">
+        <ul>
+            {% for product in pdcts %}
+            <li>
+                <h3>{{ product.name }}</h3>
+                <p>{{ product.description }}</p>
+                <a href="{{ product.link }}">Learn More</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+{% endblock %}

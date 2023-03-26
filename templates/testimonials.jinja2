@@ -1,0 +1,13 @@
+{% extends 'extendji.jinja2' %}
+
+{% block content %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='testimonials_style.css') }}">
+    <h1>Testimonials</h1>
+    <p>Here's what our customers are saying about us:</p>
+    {% for testimonial in testimonials %}
+        <div class="testimonial">
+            <p>{{ testimonial.content }}</p>
+            <p><em>{{ testimonial.author }}</em></p>
+        </div>
+    {% endfor %}
+{% endblock %}

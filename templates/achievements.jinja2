@@ -1,0 +1,15 @@
+{% extends 'extendji.jinja2' %}
+
+
+{% block content %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='achievements_style.css') }}">
+    <h1>Achievements</h1>
+    {% for chakka in chakkas %}
+        <div class="chakka">
+            <h2>{{ chakka.title }}</h2>
+            <p class="date">{{ chakka.date }}</p>
+            <p>{{ chakka.description }}</p>
+
+        </div>
+    {% endfor %}
+{% endblock %}

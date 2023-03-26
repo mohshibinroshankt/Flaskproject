@@ -1,0 +1,60 @@
+/* Global Styles */
+
+
+/* Navigation Styles */
+
+
+
+/* Hero Section Styles */
+
+#hero {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Customer Service Section Styles */
+
+#customer-service-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+#customer-service-section h2 {
+  font-size: 2em;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#customer-service-section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.2em;
+}
+
+#customer-service-section li {
+  margin-bottom: 20px;
+}
+
+#customer-service-section h3 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#customer-service-section p {
+  font-size: 1.2em;
+  color: #666;
+}

@@ -1,0 +1,19 @@
+/* Set background color and font for the entire page */
+
+
+/* Style the navigation links */
+
+/* Style the header */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+}
+
+/* Style the paragraph */
+p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+}
